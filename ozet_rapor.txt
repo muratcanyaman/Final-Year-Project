@@ -1,0 +1,49 @@
+ACTIVE LEARNING - ÖZET RAPOR
+===========================
+
+Toplam eğitim seti: 10876 örnek
+Aktif öğrenmede kullanılan örnek sayısı: 5750 örnek (52.9%)
+Test seti: 2719 örnek
+
+PERFORMANS METRİKLERİ
+--------------------
+Son F1 skoru (Aktif Öğrenme): 0.6688
+Son F1 skoru (Rastgele Örnekleme): 0.6574
+Fark: 0.0114
+
+Son Hamming Loss (Aktif Öğrenme): 0.0469
+Son Hamming Loss (Rastgele Örnekleme): 0.0465
+Fark: -0.0005
+
+Tam Veri ile RandomForest F1 skoru: 0.5233
+Aktif Öğrenmenin tam veriye göre performans oranı: 27.8%
+
+ETİKET SAYISINA GÖRE PERFORMANS
+-----------------------------
+Tek etiketli örneklerde F1 (Aktif): 0.6413
+Tek etiketli örneklerde F1 (Rastgele): 0.6231
+Çok etiketli örneklerde F1 (Aktif): 0.7120
+Çok etiketli örneklerde F1 (Rastgele): 0.7092
+
+EN İYİ PERFORMANS GÖSTEREN 5 ETİKET
+-------------------------------
+  ios: 0.7261
+  php: 0.7904
+  android: 0.7935
+  ruby-on-rails: 0.8028
+  python: 0.8724
+
+EN KÖTÜ PERFORMANS GÖSTEREN 5 ETİKET
+--------------------------------
+  .net: 0.2121
+  iphone: 0.4857
+  html: 0.5164
+  c: 0.5190
+  objective-c: 0.5392
+
+ZAMAN METRİKLERİ
+--------------
+Ortalama eğitim süresi (Aktif): 35.01 saniye
+Ortalama eğitim süresi (Rastgele): 33.98 saniye
+Ortalama tahmin süresi (Aktif): 1.75 saniye
+Ortalama tahmin süresi (Rastgele): 1.75 saniye
